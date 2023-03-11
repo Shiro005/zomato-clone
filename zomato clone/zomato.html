@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>zomato clone</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="zomato.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">ZOMATO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://shiro005.github.io/zomatovelly/about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Others
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item"
+                                    href="https://play.google.com/store/apps/details?id=com.application.zomato&hl=en_IN&gl=US">Go
+                                    to the app</a></li>
+                            <li><a class="dropdown-item" href="https://www.swiggy.com/">People
+                                    Also Search for</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="www.google.com">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGZvb2R8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1499028344343-cd173ffc68a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Zm9vZHxlbnwwfDB8MHx8&auto=format&fit=crop&w=400&q=60" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9vZHxlbnwwfDB8MHx8&auto=format&fit=crop&w=400&q=60" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="third-container">
+        <h3>Food Items-Type</h3>
+        <div class="box" id="box1">
+            <a href="https://www.zomato.com/mumbai/restaurants/pizza?category=1"> <img
+                    src="https://b.zmtcdn.com/data/o2_assets/d0bd7c9405ac87f6aa65e31fe55800941632716575.png" alt="">
+                <!-- <strong>Pizza</strong> -->
+                <P>pizza, dish of Italian origin consisting of a flattened disk of bread dough topped with some
+                    combination of olive oil or other cheese, and other sauces</P>
+                <button class="btn">Order Now</button>
+            </a>
+        </div>
+
+        <div class="box" id="box2">
+            <a href="https://www.zomato.com/mumbai/delivery?dishv2_id=59439"><img
+                    src="https://b.zmtcdn.com/data/dish_images/d19a31d42d5913ff129cafd7cec772f81639737697.png" alt="">
+                <!-- <strong>Chiken</strong> -->
+                <P>Chickens are omnivores and enjoy a variety of fruits, vegetables, cereals and even table scraps.
+                    Chickens are omnivores and enjoy a variety </P>
+                <button class="btn">Order Now</button>
+            </a>
+        </div>
+
+        <div class="box" id="box3">
+            <a href="https://www.zomato.com/mumbai/restaurants/burger?category=1"><img
+                    src="https://b.zmtcdn.com/data/dish_images/ccb7dc2ba2b054419f805da7f05704471634886169.png" alt="">
+                <!-- <strong>Burger</strong> -->
+                <P>A hamburger, or simply burger, is a food consisting of fillings—usually a patty of ground meat,
+                    typically beef—placed inside a sliced bun or bread roll.</P>
+                <button class="btn">Order Now</button>
+            </a>
+        </div>
+
+        <div class="box" id="box4">
+            <a href="https://www.zomato.com/mumbai/delivery?dishv2_id=36637"><img
+                    src="https://b.zmtcdn.com/data/o2_assets/13bdf0d4c96d44e6ddb21fedde0fe4081632716661.png" alt="">
+                <!-- <strong>French Fries</strong> -->
+                <P> finger chips, fries, or French pommes frites, side dish or snack
+                    typically made from deep-fried potatoes that have been cut into various shapes, </P>
+                <button class="btn">Order Now</button>
+            </a>
+        </div>
+
+    </div>
+
+    <h3 id="Collection">Collection -</h3>
+    <div class="fourth-container">
+        <div class="dabba" id="dabba1">
+            <a href="https://www.zomato.com/mumbai/order-food-online?delivery_subzone=77482"><img
+                    src="https://b.zmtcdn.com/webFrontend/e5b8785c257af2a7f354f1addaf37e4e1647364814.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*"
+                    alt="">
+                <p><strong>Order Online</strong><br>Order food online in Veermata Jijabai Technological Institute,
+                    Matunga,
+                    Mumbai</p>
+            </a>
+        </div>
+
+        <div class="dabba" id="dabba2">
+            <a href="https://www.zomato.com/mumbai/dine-out"> <img
+                    src="https://b.zmtcdn.com/webFrontend/d026b357feb0d63c997549f6398da8cc1647364915.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*"
+                    alt="">
+                <p><strong>Dining</strong><br>Explore curated lists of top restaurants, cafes, pubs, and bars in Mumbai,
+                </p>
+            </a>
+        </div>
+
+        <div class="dabba" id="dabba3">
+            <a href="https://www.zomato.com/mumbai/drinks-and-nightlife">
+                <img src="https://b.zmtcdn.com/webFrontend/d9d80ef91cb552e3fdfadb3d4f4379761647365057.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*"
+                    alt="">
+                <p><strong>Nightlife and Clubs</strong><br>Explore curated lists of top restaurants, cafes, pubs, and
+                    bars
+                    in Mumbai</p>
+            </a>
+        </div>
+    </div>
+
+    <footer class="py-5">
+        <div class="row">
+            <div class="col-6 col-md-2 mb-3">
+                <h5>Follow Us</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="https://www.youtube.com/channel/UC7H82Mxei7P9m6Gw3KssINw"
+                            class="nav-link p-0 text-muted">Youtube</a></li>
+                    <li class="nav-item mb-2"><a href="https://github.com/"
+                            class="nav-link p-0 text-muted">Github.In</a></li>
+                    <li class="nav-item mb-2"><a href="https://replit.com/@Shriyash005"
+                            class="nav-link p-0 text-muted">Replit.In</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="https://shiro005.github.io/zomatovelly/about.html" class="nav-link p-0 text-muted">About</a></li>
+                </ul>
+            </div>
+
+            <div class="col-6 col-md-2 mb-3">
+                <h5>Contact Us</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Email</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Telegram</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Call Us</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="https://shiro005.github.io/zomatovelly/about.html" class="nav-link p-0 text-muted">About</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-5 offset-md-1 mb-3">
+                <form>
+                    <h4>Webkit Coders</h4>
+                    <h5>Subscribe to our Youtube channel</h5>
+                    <p>weekly digest of what's new and exciting from us.</p>
+                    <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                        <label for="newsletter1" class="visually-hidden">Email address</label>
+                        <input id="newsletter1" type="text" class="form-control" placeholder="Example.@email123.com">
+                        <a href="https://www.youtube.com/channel/UC7H82Mxei7P9m6Gw3KssINw"> <button
+                                class="btn btn-primary" type="button">Subscribe</button></a>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <button class="btn btn-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"
+            aria-controls="offcanvasWithBothOptions">Sign In | Do you have Account ?</button>
+
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+            aria-labelledby="offcanvasWithBothOptionsLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">ZOMATO </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="example.zomato123@gmail.com">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1"
+                            placeholder="password should contain atleast 8 character">
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+            <p>© 2022 Company, Inc. All rights reserved.</p>
+            <p><strong>Shriyash Rulhe</strong> - <a
+                    href="https://accounts.google.com/v3/signin/identifier?dsh=S51136617%3A1663527927706388&continue=https%3A%2F%2Faccounts.google.com%2Fb%2F0%2FAddMailService&followup=https%3A%2F%2Faccounts.google.com%2Fb%2F0%2FAddMailService&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AQDHYWqusxG_p9IHnBI6JDOCYMeIaHXpoHbUwtDAfPb1beqdWsWHEUsiNVUARr0cQpEDfS0bQ-9xyg">shriyashrulhe@gmail.com</a>
+            </p>
+            <ul class="list-unstyled d-flex">
+                <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                            <use xlink:href="#twitter"></use>
+                        </svg></a></li>
+                <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                            <use xlink:href="#instagram"></use>
+                        </svg></a></li>
+                <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                            <use xlink:href="#facebook"></use>
+                        </svg></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        This Webpage is succeeded by <strong>Shriyash Rulhe..</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
